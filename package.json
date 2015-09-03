@@ -14,7 +14,7 @@
     "console",
     "web console",
   ],
-  "author": "Antonín Bouchal <me@justme.cz> (http://www.justme.cz/)",
+  "author": "Antonin Bouchal <me@justme.cz> (http://www.justme.cz/)",
   "license": "MIT", 
   "bugs": {
     "url": "https://github.com/scorpio1337/express-console/issues"

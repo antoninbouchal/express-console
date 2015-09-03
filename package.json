@@ -1,6 +1,6 @@
 {
   "name": "express-console",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple package allowing to show console output to web browser",
   "main": "index.js",
   "scripts": {

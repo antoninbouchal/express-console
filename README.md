@@ -1,5 +1,5 @@
 # express-console
-Simple package for show console outputs to web browser.
+Simple package allowing to show console output to web browser
 
 ## Instalation
 Via npm:
@@ -20,8 +20,8 @@ Just add this code to top of your script to request part:
 
 ```javascript
 // Rewrite default console with console.
-// Run express app on port 800 (default is 8080)
-var console = require('express-console')(8000);
+// Run express app on port 8000 (default is 8080)
+console = require('express-console')(8000);
 
 // Go to http://localhost:8000 (or other port)
 function printRandomNumber() {

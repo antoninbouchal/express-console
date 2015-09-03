@@ -1,7 +1,7 @@
 {
   "name": "express-console",
   "version": "0.1.0",
-  "description": "Show your console realtime via http",
+  "description": "Simple package allowing to show console output to web browser",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No test specified\" && exit"

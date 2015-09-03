@@ -11,20 +11,22 @@ app.io.route('ready', function (req) {
 	req.io.emit('inits', console_queue);
 });
 
-var consoleHolder = console.log;
+console.log = (function () {
+	var origin = console.log;
 
-console.log = function (string) {
-	var data = [ new Date(), string]
-	console_queue.push(data);
+	return function(string) {
+		var data = [ new Date(), string]
+		console_queue.push(data);
 
-	// Save only 100 last logs
-	if (console_queue.length > 100) {
-		console_queue = console_queue.slice(1);
+		// Save only 100 last logs
+		if (console_queue.length > 100) {
+			console_queue = console_queue.slice(1);
+		}
+
+		app.io.broadcast('out', data);
+		origin(string);
 	}
-
-	app.io.broadcast('out', data);
-	consoleHolder(string);
-}
+})();
 
 module.exports = function (port) {
 	if ( ! port) {

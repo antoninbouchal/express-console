@@ -1,0 +1,31 @@
+#console_out {
+	margin: 25px;
+}
+
+#console_out .time {
+	color: #999;
+	display: block;
+	width: 100px;
+}
+
+#console_out .line {
+	display: flex;
+}
+
+#console_out .date {
+	padding-left: 25px;
+	border-bottom: 1px dashed #999;
+	color: #999;
+}
+
+#console_out .connect {
+	padding-left: 25px;
+	border-bottom: 1px dashed green;
+	color: green;
+}
+
+#console_out .disconnect {
+	padding-left: 25px;
+	border-bottom: 1px dashed red;
+	color: red;
+}

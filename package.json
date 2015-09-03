@@ -1,0 +1,26 @@
+{
+  "name": "express-console",
+  "version": "0.1.0",
+  "description": "Show your console realtime via http",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scorpio1337/express-console.git"
+  },
+  "keywords": [
+    "console",
+    "web console",
+  ],
+  "author": "Antonín Bouchal <me@justme.cz> (http://www.justme.cz/)",
+  "license": "MIT", 
+  "bugs": {
+    "url": "https://github.com/scorpio1337/express-console/issues"
+  },
+  "homepage": "https://github.com/scorpio1337/express-console",
+  "dependencies": {
+    "express.io": "*"
+  }
+}

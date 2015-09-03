@@ -1,6 +1,17 @@
 # express-console
 Simple package for show console outputs to web browser.
 
+## Instalation
+Via npm:
+```
+npm install express-console
+```
+
+Via github:
+```
+npm install "git+https://github.com/Scorpio1337/express-console.git"
+```
+
 ## Usage
 
 Here is simple code for example.
